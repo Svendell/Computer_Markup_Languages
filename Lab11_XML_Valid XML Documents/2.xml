@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="1.css"?>
+<!DOCTYPE body [
+<!ELEMENT body (people)>
+<!ELEMENT people (name, surname, type, awards)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT awards (#PCDATA)>
+]>
+<body>
+    <people>
+        <name>Дарья</name>
+        <surname>Домрачева</surname>
+        <type>Биатлон</type>
+        <awards>Олимпийское золото 2014</awards>
+    </people>
+    <people>
+        <name>Алла</name>
+        <surname>Цупер</surname>
+        <type>Фристайл</type>
+        <awards>Олимпийское золото 2014</awards>
+    </people>
+    <people>
+        <name>Антон</name>
+        <surname>Кушнир</surname>
+        <type>Фристайл</type>
+        <awards>Олимпийское золото 2014</awards>
+    </people>
+</body>
