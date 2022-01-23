@@ -1,0 +1,22 @@
+h1,h2,h3,h4,h5,h6{
+    color: purple;
+    font-family: Monotype Corsiva;
+}
+.q{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.a{
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.z{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+.tablee{
+    color: darkred;
+}
