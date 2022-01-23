@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <title>Задание 1</title>
+        <style type="text/css">
+        @font-face {
+            font-family:'Caveat';
+            src:url(fonts/Caveat.woff);
+        }
+        h1{
+            font-family: 'Caveat';
+            line-height: 0;
+            text-align: center;
+            font-weight: bold;
+            text-transform: capitalize;
+            text-shadow: 1px 1px 2px red;
+        }
+        @font-face {
+            font-family: 'Exo2';
+            src: url(fonts/Exo2.ttf);
+        }
+        h2{
+            font-family: 'Exo2';
+            margin-top: 0.2rem;
+            margin-bottom: 1.2em;
+            text-indent: 25px;
+            text-align: left;
+        }
+        @font-face {
+            font-family: 'Comfortaa';
+            src: url(fonts/Comfortaa.ttf);
+        }
+        p{
+            font-family: 'Comfortaa';
+            text-indent: 25px;
+            text-align: justify;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 200%;
+            font-size: 20px;
+        }
+        p:first-letter{
+            font-weight: bold;
+            font-size: 45px;
+            color: white;
+            background-color: hsla(275, 100%, 10%, 1);
+            
+        }
+        .bez{
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        ol li {
+        list-style-type: none;
+        counter-increment: item;
+        font-family: 'Comfortaa';
+        text-indent: 25px;
+        text-align: justify;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 200%;
+        font-size: 20px;
+        
+        }
+        li:before {
+        content: counter(item, upper-roman) "."; 
+        color: blue;
+        }
+        </style>
+
+    </head>
+    <body>
+        <h1>Спорт в Республике Беларусь</h1>
+        <h2>Спортсмены Беларуси</h2>
+        <p>Александр Медведь — трёхкратный олимпийский чемпион по вольной борьбе (1964, 1968, 1972). Легендарный белорусский спортсмен украинского происхождения. Заслуженный мастер спорта, заслуженный деятель физической культуры Беларуси, заслуженный тренер Беларуси и СССР, профессор. Признан лучшим борцом вольного стиля ХХ столетия. Свои мысли и наблюдения спортсмен собрал в книге «Вся жизнь — борьба»</p>
+        <p>Максим Мирный — самый известный профессиональный теннисист Беларуси. Особого успеха добился в парном разряде, сорвав серию международных наград. Вывел белорусскую сборную на лучшее место за всю её историю на Кубке Дэвиса. Заслуженный мастер спорта, бывшая первая ракетка мира в парном разряде, олимпийский чемпион в миксте.</p>
+        <h2>Спорткомплекс «Раубичи»</h2>
+        <p>Официальное открытие «Раубичей» произошло 24 января 1974 года. За долгие годы существования комплекс «Раубичи» практически не изменился, так как изначально предоставил всю необходимую инфраструктуру. Для профессиональных спортсменов и любителей активного времяпрепровождения была построена трасса на 20 км, биатлонное стрельбище на 30 установок, знаменитый трамплин К-74, склон для фристайла, а также крытый каток, уже нашедший широкое применение при проведении соревнований по хоккею, конькобежному спорту и другим разновидностям «ледового» спорта.</p>
+        <h2 class="bez">Популярные виды спорта в Беларуси</h2>
+        <ol>
+            <li>Лёгкая атлетика</li>
+            <li>Футбол</li>
+            <li>Гимнастика</li>
+            <li>Лыжный спорт</li>
+            <li>Хоккей</li>
+        </ol>
+
+
+    </body>
+</html>
