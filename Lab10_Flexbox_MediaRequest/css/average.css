@@ -1,0 +1,23 @@
+div img:nth-child(3) {
+    position: absolute;
+    top: 100%;
+    left: 18%;
+}
+
+div img:nth-child(4) {
+    position: absolute;
+    top: 100%;
+    left: 70%;
+}
+
+.wrapperImg {
+    position: relative;
+}
+header{
+    font-size: 30px;
+    color: blue;
+}
+section{
+    font-size: 30px;
+    color: blue;
+}

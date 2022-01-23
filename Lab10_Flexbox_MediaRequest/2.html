@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Задание 2</title>
+    <meta charset="UTF-8">
+    <style>
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-flow: row wrap;
+        }
+        
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            width: 60px;
+            border: 1px solid black;
+        }
+        
+        @media (max-height: 560px) {
+            div ul {
+                flex-flow: column wrap;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+        </ul>
+    </div>
+</body>
+
+</html>

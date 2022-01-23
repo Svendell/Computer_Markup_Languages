@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Задание 4</title>
+    <style>
+        @import url(../Lab10/css/small.css) (min-width: 0px) and (max-width: 480px);
+        @import url(../Lab10/css/average.css) (min-width: 481px) and (max-width: 768px);
+        @import url(../Lab10/css/big.css) (min-width: 769px) and (max-width: 2000px);
+        .case {
+            height: 1000px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 1200px;
+            height: auto;
+            align-items: center;
+        }
+        
+        .included{
+            width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: auto;
+            height: 50px;
+            border: 1px solid black;
+        }
+        
+        .Cols {
+            display: flex;
+            flex-wrap: wrap;
+            width: auto;
+            justify-content: space-between;
+        }
+        
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            height: auto;
+            height: 50px;
+            flex-wrap: wrap;
+            width: 30%;
+            border: 1px solid black;
+        }
+        
+        .Img {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="case">
+        <div class="included">
+            <header>Заголовок 1</header>
+            <div class="Cols">
+                <section class="bl1">Ячейка 2</section>
+                <section class="bl2">Ячейка 3</section>
+                <section class="bl3">Ячейка 4</section>
+            </div>
+        </div>
+    </div>
+    <div class="Img">
+        <img width="100" height="100" src="../Lab10/images/1.jpg">
+        <img width="100" height="100" src="../Lab10/images/2.jpg">
+        <img width="100" height="100" src="../Lab10/images/3.jpg">
+        <img width="100" height="100" src="../Lab10/images/4.jpg">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+body .wrapperImg {
+    flex-direction: column;
+}
+header{
+    font-size: 20px;
+    color: green;
+}
+section{
+    font-size: 20px;
+    color: green;
+}

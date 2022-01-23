@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Задание 3</title>
+    <meta charset="UTF-8">
+    <style>
+        ul {
+            list-style-type: none;
+            display: flex;
+            gap: 40px;
+            flex-flow: column wrap;
+        }
+        
+        .wrapper {
+            width: 100%;
+        }
+        
+        .menu {
+            width: 190px;
+            border: 1px solid black;
+            position: relative;
+        }
+        
+        .wrapper {
+            height: auto;
+            width: auto;
+        }
+        .wrapperMedia {
+            height: auto;
+            border: 1px solid black;
+            width: 350px;
+            position: absolute;
+            left: 220px;
+            top: 8px;
+        }
+        
+        @media (max-height: 560px) {
+            div.wrapperMedia {
+                position: relative;
+                left: 0px;
+                top: 5px;
+            }
+            .menu ul {
+                flex-flow: column wrap;
+            }
+            .menu .invisible{
+                display: none;
+            }
+            .menu:hover .invisible{
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li class="visible">Меню</li>
+                <li class="invisible">Кинопоиск</li>
+                <li class="invisible">Ютуб</li>
+                <li class="invisible">Твич</li>
+            </ul>
+        </div>
+        <div class="wrapperMedia">
+                <audio controls="controls">
+                    <source src="../Lab10/music/Oxxxymiron - Кто Убил Марка.mp3" type="audio/ogg">
+                </audio>
+                <audio controls="controls">
+                    <source src="../Lab10/music/Oxxxymiron - Организация.mp3" type="audio/ogg">
+                </audio>
+                <video controls="controls" width="350px" height="500px">
+                    <source src="../Lab10/video/Seoul - 21985.mp4">
+                </video>
+        </div>
+    </div>
+</body>
+
+</html>
